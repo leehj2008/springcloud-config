@@ -6,7 +6,7 @@ server:
 server:
   profiles: dev
   application:
-    name: spring-cloud-1dev
+    name: spring-cloud-dev
 ---
 server:
   profiles: test
