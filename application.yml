@@ -4,6 +4,11 @@ server:
     - dev
 ---
 server:
+  profiles: prod
+  application: 
+    name: server-prod
+---
+server:
   profiles: dev
   application:
     name: spring-cloud-dev
