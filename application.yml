@@ -1,7 +1,7 @@
 server:
   profiles:
     active:
-    - dev
+    - prod
 ---
 server:
   profiles: prod
