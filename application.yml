@@ -1,19 +1,14 @@
-server:
-  profiles:
-    active:
-    - prod
+spring:
+	profiles: 
+		active:
+		- dev
 ---
 server:
-  profiles: prod
-  application: 
-    name: server-prod
+	profiles: dev
+	application: 
+		name: spring-cloud-dev
 ---
 server:
-  profiles: dev
-  application:
-    name: spring-cloud-dev
----
-server:
-  profiles: test
-  application:
-    name: spring-cloud-test
+	profiles: test
+	application: 
+		name: spring-cloud-dev
